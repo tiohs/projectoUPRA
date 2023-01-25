@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Validar IP</title>
+</head>
+<body>
+  <div class="searchbox-wrap">
+    <input type="text" minlength="7" maxlength="15" size="15" id="input" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$" placeholder="Digite um IP">
+    <button id="validation"><span>Validar</span></button>
+  </div>
+  <div id="show" class="show"></div>
+</body>
+<script src="main.js"></script>
+</html>
